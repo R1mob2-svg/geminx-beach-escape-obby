@@ -1,0 +1,73 @@
+{
+  "name": "GeminXCaribbeanBeachEscapeObby",
+  "tree": {
+    "$className": "DataModel",
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$path": "src/ServerScriptService"
+    },
+
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "$path": "src/ServerStorage"
+    },
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$path": "src/ReplicatedStorage",
+      "$properties": {
+        "Name": "ReplicatedStorage"
+      }
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "PlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$path": "src/StarterPlayer"
+      }
+    },
+
+    "Lighting": {
+      "$className": "Lighting",
+      "$properties": {
+        "TimeOfDay": "12:00:00",
+        "Ambient": [ Color3, 0.9, 0.87, 0.8 ],
+        "Brightness": 2.4,
+        "ClockTime": 12,
+        "EnvironmentDiffuseScale": 1,
+        "EnvironmentSpecularScale": 0.5,
+        "GlobalShadows": true
+      }
+    },
+
+    "Workspace": {
+      "$className": "Workspace",
+      "BeachMap": {
+        "$className": "Folder",
+        "$properties": { "Name": "BeachMap" }
+      },
+      "Spawns": {
+        "$className": "Folder",
+        "$properties": { "Name": "Spawns" }
+      },
+      "Checkpoints": {
+        "$className": "Folder",
+        "$properties": { "Name": "Checkpoints" }
+      },
+      "Coins": {
+        "$className": "Folder",
+        "$properties": { "Name": "Coins" }
+      },
+      "Hazards": {
+        "$className": "Folder",
+        "$properties": { "Name": "Hazards" }
+      }
+    },
+
+    "SoundService": {
+      "$className": "SoundService"
+    }
+  }
+}
