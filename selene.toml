@@ -1,0 +1,10 @@
+[rules]
+max_headers = 1
+export_to_global = true
+
+[[rules.lint]]
+checks = [
+  "recommended",
+]
+
+lua_version = "luau"
